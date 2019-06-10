@@ -38,5 +38,6 @@ async function loadEmailsCollection() {
 }
 
 const port = process.env.PORT || 5555;
+console.log(port);
 
 app.listen(port, ()=> console.log(`Server started on port ${port}`));
